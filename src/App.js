@@ -46,8 +46,8 @@ return (
       <td key="Picture"><b>Picture</b></td>
       <td key="Name"><b>Name</b></td>
       <td key="Popularity"><b>Popularity</b></td>
-      <td key="WonOscar"><b>wonOscar</b></td>
-      <td key="WonEmmy"><b>wonEmmy</b></td>
+      <td key="Won Oscar"><b>Won Oscar</b></td>
+      <td key="Won Emmy"><b>Won Emmy</b></td>
       
     </tr>
 

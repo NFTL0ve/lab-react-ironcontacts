@@ -41,6 +41,8 @@ return (
   <div className="App">
   <h1>IronContacts</h1>
   <button onClick={function(){addRandom()}}>Add Random Contact</button>
+  <button onClick={function(){sortByName()}}>Sort by Name</button>
+  <button onClick={function(){sortByPopularity()}}>Sort by Popularity</button>
   <table>
     <tr>
       <td key="Picture"><b>Picture</b></td>
@@ -50,6 +52,7 @@ return (
       <td key="Won Emmy"><b>Won Emmy</b></td>
       
     </tr>
+
 
     {
       contacts.map((objInfo, i) => {

@@ -61,8 +61,8 @@ return (
                 <td><img src={objInfo.pictureUrl} alt='pictureImg'/></td>
                 <td>{objInfo.name}</td>
                 <td>{Math.round(objInfo.popularity*100)/100}</td>
-                <td>{objInfo.wonOscar + "🏆"}</td>
-                <td>{objInfo.wonEmmy + "🏆"}</td>
+                <td>{objInfo.wonOscar && "🏆"}</td>
+                <td>{objInfo.wonEmmy ? "🏆" : "NO EMI"}</td>
                 <td><button onClick={function(){deleteContact(i)}}>Delete</button></td>
               </tr>
             )
